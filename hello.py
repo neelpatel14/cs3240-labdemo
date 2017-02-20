@@ -1,7 +1,5 @@
-def greetings(msg):
-    print(msg)
-
+import helper
 
 if __name__ =="__main__":
     msg = input("Enter message: ")
-    greetings(msg)
+    helper.greetings(msg)
